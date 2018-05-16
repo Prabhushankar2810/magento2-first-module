@@ -1,23 +1,21 @@
 {
-    "name": "lumbrales-software/magento2-first-module",
-    "description": "Hello world module using composer!",
-    "require": {
-    },
-    "type": "magento2-module",
-    "version": "1.0.2",
+  "name": "leanswift1/module-multiwarehouse",
+  "description": "multiware-module",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
     "extra": {
         "map": [
             [
                 "*",
-                "LumbralesSoftware/HelloWorld"
+                "LeanSwift/Multiwarehouse"
             ]
         ]
     },
-    "authors": [
-        {
-            "name": "Javi Lumbrales",
-            "homepage": "https://www.lumbrales-software.com/",
-            "role": "Developer"
-        }
-    ]
+  "autoload": {
+    "psr-4": {
+      "LeanSwift\\Multiwarehouse\\": ""
+    }
+  }
 }
