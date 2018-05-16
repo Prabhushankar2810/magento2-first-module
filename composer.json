@@ -7,9 +7,9 @@
   "type": "magento-library",
   "extra": {
         "installer-paths": {
-            "app/code/LeanSwift/Multiwarehouse": ["leanswift1/module-multiwarehouse"]
+            "app/code/Vendor/Module": ["vendor/module"]
         }
-    },
+    }
   "autoload": {
     "psr-4": {
       "LeanSwift\\Multiwarehouse\\": ""
