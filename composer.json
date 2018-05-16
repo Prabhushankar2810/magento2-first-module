@@ -9,7 +9,7 @@
         "installer-paths": {
             "app/code/Vendor/Module": ["vendor/module"]
         }
-    }
+    },
   "autoload": {
     "psr-4": {
       "LeanSwift\\Multiwarehouse\\": ""
