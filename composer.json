@@ -6,12 +6,9 @@
   },
   "type": "magento2-module",
     "extra": {
-        "map": [
-            [
-                "*",
-                "LeanSwift/Multiwarehouse"
-            ]
-        ]
+        "installer-paths": {
+            "app/code/Vendor/Module": ["vendor/module"]
+        }
     },
   "autoload": {
     "psr-4": {
